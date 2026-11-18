@@ -1,0 +1,55 @@
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# React / Vite build
+dist/
+build/
+
+# Testing
+coverage/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
